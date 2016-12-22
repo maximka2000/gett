@@ -1,0 +1,2 @@
+module MetricDetailsHelper
+end

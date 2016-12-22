@@ -1,0 +1,1 @@
+json.array! @metric_details, partial: 'metric_details/metric_detail', as: :metric_detail

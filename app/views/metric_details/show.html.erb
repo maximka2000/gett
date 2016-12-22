@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Metric:</strong>
+  <%= @metric_detail.metric_id %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @metric_detail.value %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @metric_detail.lon %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @metric_detail.timestamp %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @metric_detail.lat %>
+</p>
+
+<p>
+  <strong>Driver:</strong>
+  <%= @metric_detail.driver_id %>
+</p>
+
+<%= link_to 'Edit', edit_metric_detail_path(@metric_detail) %> |
+<%= link_to 'Back', metric_details_path %>

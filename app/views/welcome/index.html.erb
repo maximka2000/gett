@@ -1,0 +1,14 @@
+<h1> Drivers </h1>
+<table>
+   <% @drivers.each do |d| %>    
+     <tr> <td><a href='/map/index?type=driver&id=<%= d.id %>' target='map'><%= d.name %></a> </td></tr>
+   <% end %>
+</table>
+
+
+<h1> Metrics </h1>
+<table>
+   <% @metrics.each do |m| %>    
+     <tr> <td><a href='/map/index?type=metric&id=<%= m.id %>' target='map'><%= m.name %></a> </td></tr>
+   <% end %>
+</table>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  metric_id: MyString
+  value: MyString
+  lon: 1.5
+  timestamp: 9.99
+  lat: 1.5
+  driver_id: MyString
+
+two:
+  metric_id: MyString
+  value: MyString
+  lon: 1.5
+  timestamp: 9.99
+  lat: 1.5
+  driver_id: MyString

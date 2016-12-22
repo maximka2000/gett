@@ -1,0 +1,2 @@
+class MetricDetail < ApplicationRecord
+end

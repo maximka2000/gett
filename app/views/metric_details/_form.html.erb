@@ -1,0 +1,47 @@
+<%= form_for(metric_detail) do |f| %>
+  <% if metric_detail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(metric_detail.errors.count, "error") %> prohibited this metric_detail from being saved:</h2>
+
+      <ul>
+      <% metric_detail.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :metric_id %>
+    <%= f.text_field :metric_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :value %>
+    <%= f.text_field :value %>
+  </div>
+
+  <div class="field">
+    <%= f.label :lon %>
+    <%= f.text_field :lon %>
+  </div>
+
+  <div class="field">
+    <%= f.label :timestamp %>
+    <%= f.text_field :timestamp %>
+  </div>
+
+  <div class="field">
+    <%= f.label :lat %>
+    <%= f.text_field :lat %>
+  </div>
+
+  <div class="field">
+    <%= f.label :driver_id %>
+    <%= f.text_field :driver_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

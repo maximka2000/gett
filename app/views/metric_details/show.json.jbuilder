@@ -1,0 +1,1 @@
+json.partial! "metric_details/metric_detail", metric_detail: @metric_detail
