@@ -9,3 +9,10 @@ the data from the two json files into the db using the import.rake task.
 http://localhost:3000
 click on link and see the map.
 * Also if you have no time to install this, see the screenshots under the /gett/screenshots
+* The rake file can be found here https://github.com/maximka2000/gett/blob/master/lib/tasks/import.rake
+* Actually there are two controllers and views that I developed here: 
+  https://github.com/maximka2000/gett/blob/master/app/controllers/map_controller.rb 
+  https://github.com/maximka2000/gett/blob/master/app/controllers/welcome_controller.rb
+  https://github.com/maximka2000/gett/blob/master/app/views/welcome/index.html.erb
+  https://github.com/maximka2000/gett/blob/master/app/views/map/index.html.erb
+  
